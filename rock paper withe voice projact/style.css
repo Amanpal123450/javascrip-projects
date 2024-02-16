@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(10deg, black, white);
+}
+.img-container{
+     height:400px;
+     width: 400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 100px;
+     margin-left: 450px;
+    
+
+}
+.user{
+     transform: rotate(-80deg);
+     height: 200px;
+     width: 200px;
+     transform: rotate(275deg);
+     
+}
+.styleuser{
+    animation: aman 1s ease-in 2 alternate;
+}
+@keyframes aman {
+     0%{
+        transform: rotate(275deg);
+        transition: all ease-in ease-in-out;
+     }
+     25%{
+        transform:rotate(290deg); 
+        transition: all ease-in ease-in-out;
+     }
+     50%{
+        transform:rotate(250deg);
+        transition: all ease-in ease-in-out;
+     }
+    }
+
+
+.computre{
+    transform: rotate(80deg);
+    height: 200px;
+    width: 200px;
+   
+
+}
+.stylecoputer{
+    animation: aman1 1s ease-in 2 alternate;
+}
+@keyframes aman1 {
+    0%{
+       transform: rotate(90deg);
+       transition: all ease-in ease-in-out;
+    }
+    25%{
+       transform:rotate(50deg); 
+       transition: all ease-in ease-in-out;
+    }
+    50%{
+       transform:rotate(105deg);
+       transition: all ease-in ease-in-out;
+    }
+   }
+.select-img{
+
+    height: 200px;
+    width: 200px;
+    gap: 30px;
+
+}
+.select-img img{
+
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* cursor: pointer; */
+}
+
+.select-img img:hover{
+
+    border: 2px solid black;  
+}
+h1{
+    
+    margin-left: -15%;
+    padding-top: 5%;
+    color: rgb(50, 30, 30);
+}
+.h2{
+
+    margin-left: -100px;
+
+} 
+.styleuser1{
+    background-color: rgb(0, 255, 0);
+    width: 500px;
+    margin-left: 370px;
+    margin-top: -25px;
+}
+.stylecom1{
+  
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    margin-left: 370px;
+    margin-top: -25px;
+
+}
+.count{
+   
+    width: 200px;
+    font-size: 30px;
+    display: flex;
+    gap: 275px;
+    margin-left: 419px;
+    margin-top: 70px;
+    margin-bottom: -85px;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+}

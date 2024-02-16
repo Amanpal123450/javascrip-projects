@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+#top-nvb{
+  background-color: #daac00 !important;
+  padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+#search-box{
+
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 50px;
+    box-shadow: 5px 9px 11px 0px #6e6e6e;
+}
+#search-box::placeholder{
+    color: white;
+}
+#search-btn{
+
+    /* background-color: #02c2fc; */
+    z-index: 99;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    
+
+} 
+@media only screen and (max-width: 768px) {
+
+    #searchform{
+
+        margin-bottom: 30px;
+        margin-top: 20px;
+        
+    }
+    
+}
+@media only screen and (max-width: 820px) {
+    #searchform{
+        
+    }
+}
+#banner{
+
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#banner-text h1{
+    color: white;
+    font-size: 50px;
+
+}
+#banner-text p{
+
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#banner-1{
+
+  background-color: aqua;
+  border-radius: 3px;
+  color: white;
+  width: 100px;
+  border:  none;
+}
+#banner-2{
+    
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    background-color: #fcc302;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 1300px)
+{
+    #banner-text h1{
+        font-size: 42px;
+    }
+    #banner{
+
+        padding: 70px;
+    }
+   
+}
+@media only screen and (max-width: 986px)
+{
+    #searchform{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+    #banner-text h1{
+        font-size: 32px;
+    }
+
+}
+@media only screen and (max-width: 570px)
+{
+    #banner-text h1{
+        font-size: 19px;
+    }
+    #banner-1{
+        margin-bottom: 20px;
+    }
+    #banner-1{
+        margin-left: 7px;
+    }
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+     border: 2px solid #fcc302;                       
+}
+#service-img{
+    padding: 5%;
+}
+@media only screen and (max-width: 980px)
+{
+    #service-img{
+       padding-top: 10%;
+    }
+}
+
+
+#counter{
+    background-image: url("three-dogs-walking-together-outside-SW1111111111.jpg");
+    backdrop-filter: blur(1px);
+    background-size:cover ;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+}
+#text-card{
+    font-size: 10px !important;
+    font-size-adjust: none;
+}
+#blog{
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+#blog-text{
+  font-size: 50px;
+  font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+   
+}
+
+#h1{
+
+    font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 990px)
+{
+    #h1{
+
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 1300px)
+{
+    #h1{
+
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 575px)
+{
+    #h1{
+
+        font-size: 35px;
+        margin-top: 5px;
+    }
+}
+
+
+#btn-footer{
+    border-radius: 40%;
+    height: 40px;
+    width: 40px;
+    /*  */
+    margin-top: 20px;
+}
+.btnff{
+    margin-left: 170px;
+}
+#footer{
+   padding-top: 50px;
+   padding-bottom:50px ;
+   color: white;
+}
+@media only screen and (max-width: 990px)
+{
+    .btnff{
+        margin-left: 27px;
+      
+    }
+   
+}
+@media only screen and (max-width: 1300px)
+{
+    .btnff{
+        margin-left: 97px;
+      
+    }
+}
+
+
+
+

@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}
+.main_div{
+     margin-top: 10%;
+     width: 100%;
+}
+body{
+    background-color: rgb(64, 88, 88);
+}
+h1{
+    color: beige;
+
+    font-style:normal;
+    
+}
+
+.div{
+
+    display: inline;
+    color: white;
+    font-size: 20px;
+    
+}
+.winner{
+
+    font-size: 40px;
+    color: wheat;
+    border: 2px solid lightblue;
+    width: 240px;
+    margin-left: 40%;
+    
+}
+.hello{
+
+    background-color: green;
+    color: white;
+}
+
+.hello1{
+
+    background-color: rgb(255, 3, 3);
+    color: white;
+}
